@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "4",
 
   // Services
   services: [
@@ -79,9 +79,10 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Richard Evens", rating: 5, text: "After several attempts with other garden/landscaping companies locally it was very pleasing to find someone that actually came round to quote, sent us a quote within days and then carried out the work within a few weeks.m! Not only was the …  ", date: "6 years ago" },
+    { name: "Luke Barlow", rating: 5, text: "I am a pensioner with an acre of lawn that moles had decimated.  My garden is one of my greatest pleasures and to have Richard caring for my lawn this summer following a recommendation from a neighbour has been a huge relief.  Despite the …  ", date: "7 years ago" },
+    { name: "Jeremy Kirk", rating: 5, text: "Richard at The Lawn Mowing Company offers a first class service and I would not hesitate to recommend him. He works to very high standards, takes real pride in his work and offers value for money ... your lawn really is in safe hands ! ", date: "7 years ago" },
+    { name: "Steve Laura", rating: 5, text: "Richard and his team at The Lawn Mowing Company did a fantastic job of designing and landscaping my new garden in Newbury, everything from the sleeper retaining walls and planters through to Portugese Laurel hedge were top notch and now …  ", date: "7 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
